@@ -1,0 +1,481 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+.nav-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.link-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.link-container a{
+      text-decoration: none;
+      color: rgb(82, 82, 82);
+      margin-left: 10px;
+      margin-right: 10px;
+}
+.link-container p{
+    margin-right: 3rem;
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+.link-container p:hover{
+    background-color: rgb(238, 238, 238);
+
+}
+.logo{
+    font-weight:500;
+     width: 50%;
+     font-size: 1.3rem;
+     color: rgb(0, 0, 0);
+}
+.content-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    margin-left: 200px;
+}
+.main-photo{
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 6rem;
+
+}
+.first{
+    font-weight: lighter;
+    font-size: 0.7rem;
+    color: rgba(0, 0,0, 80%);
+}
+.second{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.third{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.info-container a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.76rem;
+    
+}
+.info-container .button{
+    display: flex;
+    background-color: rgb(19, 16, 16);
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.info-container{
+    margin-top: 20px;
+}
+.info-container .button:hover{
+    background-color: rgb(112, 112, 112);
+  
+}
+
+.end{
+    background-color: rgb(134, 134, 134);
+    height: 1px;
+    margin-top: 30px;
+}
+.about{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+.about h3 {
+    font-weight: 300;
+    font-size: 2rem;
+
+}
+.about-content{
+    display: flex;
+    margin-left: 200px;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+}
+.photo-div{
+   
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 150px;
+    margin-right: 20px;
+
+}
+.description{
+    font-weight: light;
+    font-size: 1rem;
+    color: rgba(22, 22, 22, 70%);
+    width: 40rem;
+    margin-top: 20px;
+}
+.description-div .about-skill{
+    font-size: 1.5rem;
+}
+.description-div a{
+    text-decoration: none;
+    color: rgb(199, 46, 46);
+}
+.description-button a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.description-button{
+    margin-top: 15px;
+    height: 20px;
+    width: auto;
+    border-radius: 5px;
+    display: inline-block;
+    
+   
+}
+.description-button:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+.project-photo{
+    background-color: rgb(199, 198, 198);
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+}
+.project .project-info-description{
+    width: 15rem;
+    margin-left: 7px;
+}
+.project .title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 7px;
+    margin-left: 5px;
+    
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 180px;
+    margin-left: 220px;
+    margin-top: 40px;
+}
+.project{
+    transition-property: all;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    justify-content: center;
+    transition-duration: 250ms;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 20px;
+}
+.project:hover{
+    
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color:rgb(255, 255, 255,0);
+    border-radius: 20px;
+}
+.project-button{
+    margin-left: 260px;
+    margin-top: 30px;
+
+}
+.project-button a{
+    text-decoration: none;
+    color: rgb(199, 46, 46);
+}
+.project-photo-for-experience{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color:  rgb(199, 198, 198);
+    margin-bottom: 15px;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+.footer-links p {
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+    
+}
+.footer-links p:hover{
+    background-color: rgb(216, 216, 216);
+}
+.footer-links a{
+    text-decoration: none;
+    color: rgb(56, 45, 151);
+}
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+.link-container{
+    display: none;
+}
+
+.logo{
+    font-weight:500;
+     width: 50%;
+     font-size: 1.3rem;
+     color: rgb(0, 0, 0);
+}
+.content-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    margin-left: 200px;
+}
+.main-photo{
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 6rem;
+
+}
+.first{
+    font-weight: lighter;
+    font-size: 0.7rem;
+    color: rgba(0, 0,0, 80%);
+}
+.second{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.third{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.info-container a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.76rem;
+    
+}
+.info-container .button{
+    display: flex;
+    background-color: rgb(19, 16, 16);
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.info-container{
+    margin-top: 20px;
+}
+.info-container .button:hover{
+    background-color: rgb(112, 112, 112);
+  
+}
+
+.end{
+    background-color: rgb(134, 134, 134);
+    height: 1px;
+    margin-top: 30px;
+}
+.about{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+.about h3 {
+    font-weight: 300;
+    font-size: 2rem;
+
+}
+.about-content{
+    display: flex;
+    margin-left: 200px;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+}
+.photo-div{
+   
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 150px;
+    margin-right: 20px;
+
+}
+.description{
+    font-weight: light;
+    font-size: 1rem;
+    color: rgba(22, 22, 22, 70%);
+    width: 40rem;
+    margin-top: 20px;
+}
+.description-div .about-skill{
+    font-size: 1.5rem;
+}
+.description-div a{
+    text-decoration: none;
+    color: rgb(199, 46, 46);
+}
+.description-button a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.description-button{
+    margin-top: 15px;
+    height: 20px;
+    width: auto;
+    border-radius: 5px;
+    display: inline-block;
+    
+   
+}
+.description-button:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+.project-photo{
+    background-color: rgb(199, 198, 198);
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+}
+.project .project-info-description{
+    width: 15rem;
+    margin-left: 7px;
+}
+.project .title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 7px;
+    margin-left: 5px;
+    
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 180px;
+    margin-left: 220px;
+    margin-top: 40px;
+}
+.project{
+    transition-property: all;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    justify-content: center;
+    transition-duration: 250ms;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 20px;
+}
+.project:hover{
+    
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color:rgb(255, 255, 255,0);
+    border-radius: 20px;
+}
+.project-button{
+    margin-left: 260px;
+    margin-top: 30px;
+
+}
+.project-button a{
+    text-decoration: none;
+    color: rgb(199, 46, 46);
+}
+.project-photo-for-experience{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color:  rgb(199, 198, 198);
+    margin-bottom: 15px;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+.footer-links p {
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+    
+}
+.footer-links p:hover{
+    background-color: rgb(216, 216, 216);
+}
+.footer-links a{
+    text-decoration: none;
+    color: rgb(56, 45, 151);
+}
+
+}
+
+
+
+
+
+
